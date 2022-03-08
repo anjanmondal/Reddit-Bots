@@ -27,11 +27,11 @@ import praw
 
 
 reddit =praw.Reddit(
-    user_agent="<console : F-Word :1.0>",
-    client_id="AyrnsqSfRP--IztZc9yEiQ",
-    client_secret="oHXkiDb-MWkLJdIIQB5fiEerAleWNg",
-    username="admonish-hour",
-    password="ELHfKhJy9FVb5jt",
+    user_agent="",
+    client_id="",
+    client_secret="",
+    username="",
+    password="",
     )
     
 
