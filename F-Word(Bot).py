@@ -24,7 +24,7 @@ Created on Sun Mar  6 19:24:25 2022
 import re
 import numpy as np
 import praw
-
+import time
 
 reddit =praw.Reddit(
     user_agent="",
@@ -238,4 +238,4 @@ for submission in subreddit.hot(limit=10):
   
     # comment the similar words
                 comment.reply(reply_text)
-    
+                time.sleep(1000)
